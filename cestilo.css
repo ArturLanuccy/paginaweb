@@ -1,0 +1,39 @@
+
+body{
+    color: black;
+    background-color: white;
+}
+img{
+    height: 9.375rem;
+    height: 9.375rem;
+    border: 5px solid black;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+body{
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 100px;
+
+}
+header div{
+    flex-direction: column;
+}
+hr {
+    border: none;
+    border-top: 2px solid #000000;
+    margin: 1rem;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
+    body {
+        margin: 0;
+    }
+}
